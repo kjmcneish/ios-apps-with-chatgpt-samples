@@ -1,0 +1,52 @@
+# Xcode
+.DS_Store
+*/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+.idea/
+*.xcscmblueprint
+xcshareddata/
+*.xcbkptlist
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+# Xcode 11+ automatically generates this directory, we can safely ignore it too
+.swiftpm/
+
+# Archives
+*.xcarchive
+
+# Various settings
+*.env
+*.xcconfig
+
+# Code coverage
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+xcov_report/
+test_output/
+
+# Xcode generated scheme management files
+*.xcscheme
+xcshareddata/xcschemes/*.xcscheme
+
+# AppCenter files
+appcenter-pre-build.sh
+appcenter-post-clone.sh
+appcenter-post-build.sh
+
+# Firebase Crashlytics
+firebase-debug.log
+
